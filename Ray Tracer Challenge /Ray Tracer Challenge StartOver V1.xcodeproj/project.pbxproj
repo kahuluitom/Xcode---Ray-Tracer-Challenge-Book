@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDD691472743F3BE00C93E79 /* Ray_Tracer_Challenge_StartOver_V1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD691462743F3BE00C93E79 /* Ray_Tracer_Challenge_StartOver_V1App.swift */; };
+		CDD691492743F3BF00C93E79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD691482743F3BF00C93E79 /* ContentView.swift */; };
+		CDD6914B2743F40400C93E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD6914A2743F40400C93E79 /* Assets.xcassets */; };
+		CDD6914E2743F40400C93E79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD6914D2743F40400C93E79 /* Preview Assets.xcassets */; };
+		CDD691572743F4BA00C93E79 /* Vector4.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD691562743F4BA00C93E79 /* Vector4.swift */; };
+		CDD6915A2743F50A00C93E79 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD691592743F50A00C93E79 /* DoubleExtension.swift */; };
+		CDD6915D2743F5DB00C93E79 /* TestMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD6915C2743F5DB00C93E79 /* TestMatrix.swift */; };
+		CDD6915F2743F6CF00C93E79 /* TestVectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD6915E2743F6CF00C93E79 /* TestVectors.swift */; };
+		CDD691612743F89E00C93E79 /* TabContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD691602743F89E00C93E79 /* TabContentView.swift */; };
+		CDD6916427440D2000C93E79 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD6916327440D2000C93E79 /* Color.swift */; };
+		CDD6916627440D5000C93E79 /* CanvasFrameBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD6916527440D5000C93E79 /* CanvasFrameBuffer.swift */; };
+		CDD6916A27440EB900C93E79 /* TestProjectileTick.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD6916927440EB900C93E79 /* TestProjectileTick.swift */; };
+		CDD6916C2744187A00C93E79 /* TestCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD6916B2744187A00C93E79 /* TestCanvas.swift */; };
+		CDD6916E27441AAD00C93E79 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD6916D27441AAD00C93E79 /* ImageExtension.swift */; };
+		CDD6917027445BCD00C93E79 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD6916F27445BCD00C93E79 /* Matrix.swift */; };
+		CDD6917327445C0C00C93E79 /* TestMatrices.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD6917227445C0C00C93E79 /* TestMatrices.swift */; };
+		CDD691752745822800C93E79 /* TestTransforms.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD691742745822800C93E79 /* TestTransforms.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CDD691432743F3BE00C93E79 /* Ray Tracer Challenge StartOver V1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ray Tracer Challenge StartOver V1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD691462743F3BE00C93E79 /* Ray_Tracer_Challenge_StartOver_V1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ray_Tracer_Challenge_StartOver_V1App.swift; sourceTree = "<group>"; };
+		CDD691482743F3BF00C93E79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDD6914A2743F40400C93E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDD6914D2743F40400C93E79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDD6914F2743F40400C93E79 /* Ray_Tracer_Challenge_StartOver_V1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ray_Tracer_Challenge_StartOver_V1.entitlements; sourceTree = "<group>"; };
+		CDD691562743F4BA00C93E79 /* Vector4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector4.swift; sourceTree = "<group>"; };
+		CDD691592743F50A00C93E79 /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		CDD6915C2743F5DB00C93E79 /* TestMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMatrix.swift; sourceTree = "<group>"; };
+		CDD6915E2743F6CF00C93E79 /* TestVectors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVectors.swift; sourceTree = "<group>"; };
+		CDD691602743F89E00C93E79 /* TabContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabContentView.swift; sourceTree = "<group>"; };
+		CDD6916327440D2000C93E79 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		CDD6916527440D5000C93E79 /* CanvasFrameBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasFrameBuffer.swift; sourceTree = "<group>"; };
+		CDD6916927440EB900C93E79 /* TestProjectileTick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectileTick.swift; sourceTree = "<group>"; };
+		CDD6916B2744187A00C93E79 /* TestCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCanvas.swift; sourceTree = "<group>"; };
+		CDD6916D27441AAD00C93E79 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		CDD6916F27445BCD00C93E79 /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		CDD6917227445C0C00C93E79 /* TestMatrices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMatrices.swift; sourceTree = "<group>"; };
+		CDD691742745822800C93E79 /* TestTransforms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTransforms.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDD691402743F3BE00C93E79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDD6913A2743F3BE00C93E79 = {
+			isa = PBXGroup;
+			children = (
+				CDD691452743F3BE00C93E79 /* Ray Tracer Challenge StartOver V1 */,
+				CDD691442743F3BE00C93E79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDD691442743F3BE00C93E79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDD691432743F3BE00C93E79 /* Ray Tracer Challenge StartOver V1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDD691452743F3BE00C93E79 /* Ray Tracer Challenge StartOver V1 */ = {
+			isa = PBXGroup;
+			children = (
+				CDD691602743F89E00C93E79 /* TabContentView.swift */,
+				CDD691482743F3BF00C93E79 /* ContentView.swift */,
+				CDD6917127445BE000C93E79 /* Matrix, etc. */,
+				CDD691582743F4F600C93E79 /* Extensions */,
+				CDD6916227440CE800C93E79 /* DrawingStructs */,
+				CDD691552743F4A600C93E79 /* Vectors */,
+				CDD6915B2743F5BE00C93E79 /* TestFiles */,
+				CDD6914A2743F40400C93E79 /* Assets.xcassets */,
+				CDD691462743F3BE00C93E79 /* Ray_Tracer_Challenge_StartOver_V1App.swift */,
+				CDD6914F2743F40400C93E79 /* Ray_Tracer_Challenge_StartOver_V1.entitlements */,
+				CDD6914C2743F40400C93E79 /* Preview Content */,
+			);
+			path = "Ray Tracer Challenge StartOver V1";
+			sourceTree = "<group>";
+		};
+		CDD6914C2743F40400C93E79 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CDD6914D2743F40400C93E79 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDD691552743F4A600C93E79 /* Vectors */ = {
+			isa = PBXGroup;
+			children = (
+				CDD691562743F4BA00C93E79 /* Vector4.swift */,
+			);
+			path = Vectors;
+			sourceTree = "<group>";
+		};
+		CDD691582743F4F600C93E79 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CDD691592743F50A00C93E79 /* DoubleExtension.swift */,
+				CDD6916D27441AAD00C93E79 /* ImageExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CDD6915B2743F5BE00C93E79 /* TestFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CDD6915C2743F5DB00C93E79 /* TestMatrix.swift */,
+				CDD6915E2743F6CF00C93E79 /* TestVectors.swift */,
+				CDD6916927440EB900C93E79 /* TestProjectileTick.swift */,
+				CDD6916B2744187A00C93E79 /* TestCanvas.swift */,
+				CDD6917227445C0C00C93E79 /* TestMatrices.swift */,
+				CDD691742745822800C93E79 /* TestTransforms.swift */,
+			);
+			path = TestFiles;
+			sourceTree = "<group>";
+		};
+		CDD6916227440CE800C93E79 /* DrawingStructs */ = {
+			isa = PBXGroup;
+			children = (
+				CDD6916327440D2000C93E79 /* Color.swift */,
+				CDD6916527440D5000C93E79 /* CanvasFrameBuffer.swift */,
+			);
+			path = DrawingStructs;
+			sourceTree = "<group>";
+		};
+		CDD6917127445BE000C93E79 /* Matrix, etc. */ = {
+			isa = PBXGroup;
+			children = (
+				CDD6916F27445BCD00C93E79 /* Matrix.swift */,
+			);
+			path = "Matrix, etc.";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDD691422743F3BE00C93E79 /* Ray Tracer Challenge StartOver V1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDD691522743F40400C93E79 /* Build configuration list for PBXNativeTarget "Ray Tracer Challenge StartOver V1" */;
+			buildPhases = (
+				CDD6913F2743F3BE00C93E79 /* Sources */,
+				CDD691402743F3BE00C93E79 /* Frameworks */,
+				CDD691412743F3BE00C93E79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ray Tracer Challenge StartOver V1";
+			productName = "Ray Tracer Challenge StartOver V1";
+			productReference = CDD691432743F3BE00C93E79 /* Ray Tracer Challenge StartOver V1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDD6913B2743F3BE00C93E79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					CDD691422743F3BE00C93E79 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = CDD6913E2743F3BE00C93E79 /* Build configuration list for PBXProject "Ray Tracer Challenge StartOver V1" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDD6913A2743F3BE00C93E79;
+			productRefGroup = CDD691442743F3BE00C93E79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDD691422743F3BE00C93E79 /* Ray Tracer Challenge StartOver V1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDD691412743F3BE00C93E79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD6914E2743F40400C93E79 /* Preview Assets.xcassets in Resources */,
+				CDD6914B2743F40400C93E79 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDD6913F2743F3BE00C93E79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD6915A2743F50A00C93E79 /* DoubleExtension.swift in Sources */,
+				CDD691492743F3BF00C93E79 /* ContentView.swift in Sources */,
+				CDD6916E27441AAD00C93E79 /* ImageExtension.swift in Sources */,
+				CDD6917327445C0C00C93E79 /* TestMatrices.swift in Sources */,
+				CDD6917027445BCD00C93E79 /* Matrix.swift in Sources */,
+				CDD691752745822800C93E79 /* TestTransforms.swift in Sources */,
+				CDD6915F2743F6CF00C93E79 /* TestVectors.swift in Sources */,
+				CDD6916C2744187A00C93E79 /* TestCanvas.swift in Sources */,
+				CDD691612743F89E00C93E79 /* TabContentView.swift in Sources */,
+				CDD6915D2743F5DB00C93E79 /* TestMatrix.swift in Sources */,
+				CDD6916427440D2000C93E79 /* Color.swift in Sources */,
+				CDD6916627440D5000C93E79 /* CanvasFrameBuffer.swift in Sources */,
+				CDD6916A27440EB900C93E79 /* TestProjectileTick.swift in Sources */,
+				CDD691572743F4BA00C93E79 /* Vector4.swift in Sources */,
+				CDD691472743F3BE00C93E79 /* Ray_Tracer_Challenge_StartOver_V1App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CDD691502743F40400C93E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDD691512743F40400C93E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CDD691532743F40400C93E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Ray Tracer Challenge StartOver V1/Ray_Tracer_Challenge_StartOver_V1.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ray Tracer Challenge StartOver V1/Preview Content\"";
+				DEVELOPMENT_TEAM = HBDB6683UC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TonopahSoftware.Ray-Tracer-Challenge-StartOver-V1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CDD691542743F40400C93E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Ray Tracer Challenge StartOver V1/Ray_Tracer_Challenge_StartOver_V1.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ray Tracer Challenge StartOver V1/Preview Content\"";
+				DEVELOPMENT_TEAM = HBDB6683UC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TonopahSoftware.Ray-Tracer-Challenge-StartOver-V1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDD6913E2743F3BE00C93E79 /* Build configuration list for PBXProject "Ray Tracer Challenge StartOver V1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD691502743F40400C93E79 /* Debug */,
+				CDD691512743F40400C93E79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDD691522743F40400C93E79 /* Build configuration list for PBXNativeTarget "Ray Tracer Challenge StartOver V1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD691532743F40400C93E79 /* Debug */,
+				CDD691542743F40400C93E79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDD6913B2743F3BE00C93E79 /* Project object */;
+}
