@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD552B49274EB26800041FAC /* Ray_Tracing_Challenge_V7App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD552B48274EB26800041FAC /* Ray_Tracing_Challenge_V7App.swift */; };
+		CD552B4B274EB26800041FAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD552B4A274EB26800041FAC /* ContentView.swift */; };
+		CD552B4D274EB28400041FAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD552B4C274EB28400041FAC /* Assets.xcassets */; };
+		CD552B50274EB28400041FAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD552B4F274EB28400041FAC /* Preview Assets.xcassets */; };
+		CD552B58274EB2B900041FAC /* Intersection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD552B57274EB2B900041FAC /* Intersection.swift */; };
+		CD552B5A274EB39A00041FAC /* Vector4.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD552B59274EB39A00041FAC /* Vector4.swift */; };
+		CD552B5C274EB40000041FAC /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD552B5B274EB40000041FAC /* Matrix.swift */; };
+		CD552B5E274EB55500041FAC /* DoubleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD552B5D274EB55500041FAC /* DoubleExtensions.swift */; };
+		CD552B62274EC5D300041FAC /* TestsIntersection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD552B61274EC5D300041FAC /* TestsIntersection.swift */; };
+		CD552B64274ED86600041FAC /* WorldScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD552B63274ED86600041FAC /* WorldScene.swift */; };
+		CDB0D990275154B900064209 /* TestsRayTranslating.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0D98F275154B900064209 /* TestsRayTranslating.swift */; };
+		CDB0D9922751593500064209 /* TestSphereTransforms.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0D9912751593500064209 /* TestSphereTransforms.swift */; };
+		CDB0D99427515E7800064209 /* TestsRedSphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0D99327515E7800064209 /* TestsRedSphere.swift */; };
+		CDB0D9962751652700064209 /* CanvasFrameBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0D9952751652700064209 /* CanvasFrameBuffer.swift */; };
+		CDB0D99827516E4D00064209 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0D99727516E4D00064209 /* Color.swift */; };
+		CDB0D99A27517B6E00064209 /* TestSphereNormals.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0D99927517B6E00064209 /* TestSphereNormals.swift */; };
+		CDB0D99C275180DB00064209 /* Ray.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0D99B275180DB00064209 /* Ray.swift */; };
+		CDB0D99E2751810A00064209 /* Sphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0D99D2751810A00064209 /* Sphere.swift */; };
+		CDB0D9A02751813500064209 /* Material.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0D99F2751813500064209 /* Material.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD552B45274EB26800041FAC /* Ray Tracing Challenge V7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ray Tracing Challenge V7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD552B48274EB26800041FAC /* Ray_Tracing_Challenge_V7App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ray_Tracing_Challenge_V7App.swift; sourceTree = "<group>"; };
+		CD552B4A274EB26800041FAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD552B4C274EB28400041FAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD552B4F274EB28400041FAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD552B51274EB28400041FAC /* Ray_Tracing_Challenge_V7.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ray_Tracing_Challenge_V7.entitlements; sourceTree = "<group>"; };
+		CD552B57274EB2B900041FAC /* Intersection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intersection.swift; sourceTree = "<group>"; };
+		CD552B59274EB39A00041FAC /* Vector4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector4.swift; sourceTree = "<group>"; };
+		CD552B5B274EB40000041FAC /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		CD552B5D274EB55500041FAC /* DoubleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtensions.swift; sourceTree = "<group>"; };
+		CD552B61274EC5D300041FAC /* TestsIntersection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsIntersection.swift; sourceTree = "<group>"; };
+		CD552B63274ED86600041FAC /* WorldScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldScene.swift; sourceTree = "<group>"; };
+		CDB0D98F275154B900064209 /* TestsRayTranslating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsRayTranslating.swift; sourceTree = "<group>"; };
+		CDB0D9912751593500064209 /* TestSphereTransforms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSphereTransforms.swift; sourceTree = "<group>"; };
+		CDB0D99327515E7800064209 /* TestsRedSphere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsRedSphere.swift; sourceTree = "<group>"; };
+		CDB0D9952751652700064209 /* CanvasFrameBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasFrameBuffer.swift; sourceTree = "<group>"; };
+		CDB0D99727516E4D00064209 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		CDB0D99927517B6E00064209 /* TestSphereNormals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSphereNormals.swift; sourceTree = "<group>"; };
+		CDB0D99B275180DB00064209 /* Ray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ray.swift; sourceTree = "<group>"; };
+		CDB0D99D2751810A00064209 /* Sphere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sphere.swift; sourceTree = "<group>"; };
+		CDB0D99F2751813500064209 /* Material.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Material.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD552B42274EB26800041FAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD552B3C274EB26800041FAC = {
+			isa = PBXGroup;
+			children = (
+				CD552B47274EB26800041FAC /* Ray Tracing Challenge V7 */,
+				CD552B46274EB26800041FAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD552B46274EB26800041FAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD552B45274EB26800041FAC /* Ray Tracing Challenge V7.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD552B47274EB26800041FAC /* Ray Tracing Challenge V7 */ = {
+			isa = PBXGroup;
+			children = (
+				CDB0D9952751652700064209 /* CanvasFrameBuffer.swift */,
+				CDB0D99927517B6E00064209 /* TestSphereNormals.swift */,
+				CDB0D99327515E7800064209 /* TestsRedSphere.swift */,
+				CDB0D9912751593500064209 /* TestSphereTransforms.swift */,
+				CDB0D98F275154B900064209 /* TestsRayTranslating.swift */,
+				CD552B61274EC5D300041FAC /* TestsIntersection.swift */,
+				CD552B63274ED86600041FAC /* WorldScene.swift */,
+				CDB0D99F2751813500064209 /* Material.swift */,
+				CDB0D99D2751810A00064209 /* Sphere.swift */,
+				CDB0D99B275180DB00064209 /* Ray.swift */,
+				CD552B57274EB2B900041FAC /* Intersection.swift */,
+				CD552B59274EB39A00041FAC /* Vector4.swift */,
+				CD552B5B274EB40000041FAC /* Matrix.swift */,
+				CDB0D99727516E4D00064209 /* Color.swift */,
+				CD552B5D274EB55500041FAC /* DoubleExtensions.swift */,
+				CD552B4A274EB26800041FAC /* ContentView.swift */,
+				CD552B4C274EB28400041FAC /* Assets.xcassets */,
+				CD552B51274EB28400041FAC /* Ray_Tracing_Challenge_V7.entitlements */,
+				CD552B48274EB26800041FAC /* Ray_Tracing_Challenge_V7App.swift */,
+				CD552B4E274EB28400041FAC /* Preview Content */,
+			);
+			path = "Ray Tracing Challenge V7";
+			sourceTree = "<group>";
+		};
+		CD552B4E274EB28400041FAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CD552B4F274EB28400041FAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD552B44274EB26800041FAC /* Ray Tracing Challenge V7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD552B54274EB28400041FAC /* Build configuration list for PBXNativeTarget "Ray Tracing Challenge V7" */;
+			buildPhases = (
+				CD552B41274EB26800041FAC /* Sources */,
+				CD552B42274EB26800041FAC /* Frameworks */,
+				CD552B43274EB26800041FAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ray Tracing Challenge V7";
+			productName = "Ray Tracing Challenge V7";
+			productReference = CD552B45274EB26800041FAC /* Ray Tracing Challenge V7.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD552B3D274EB26800041FAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					CD552B44274EB26800041FAC = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = CD552B40274EB26800041FAC /* Build configuration list for PBXProject "Ray Tracing Challenge V7" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD552B3C274EB26800041FAC;
+			productRefGroup = CD552B46274EB26800041FAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD552B44274EB26800041FAC /* Ray Tracing Challenge V7 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD552B43274EB26800041FAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD552B50274EB28400041FAC /* Preview Assets.xcassets in Resources */,
+				CD552B4D274EB28400041FAC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD552B41274EB26800041FAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD552B58274EB2B900041FAC /* Intersection.swift in Sources */,
+				CDB0D99A27517B6E00064209 /* TestSphereNormals.swift in Sources */,
+				CD552B5C274EB40000041FAC /* Matrix.swift in Sources */,
+				CDB0D990275154B900064209 /* TestsRayTranslating.swift in Sources */,
+				CDB0D99427515E7800064209 /* TestsRedSphere.swift in Sources */,
+				CDB0D99827516E4D00064209 /* Color.swift in Sources */,
+				CD552B4B274EB26800041FAC /* ContentView.swift in Sources */,
+				CD552B62274EC5D300041FAC /* TestsIntersection.swift in Sources */,
+				CDB0D9962751652700064209 /* CanvasFrameBuffer.swift in Sources */,
+				CD552B49274EB26800041FAC /* Ray_Tracing_Challenge_V7App.swift in Sources */,
+				CDB0D9A02751813500064209 /* Material.swift in Sources */,
+				CD552B5E274EB55500041FAC /* DoubleExtensions.swift in Sources */,
+				CD552B64274ED86600041FAC /* WorldScene.swift in Sources */,
+				CDB0D9922751593500064209 /* TestSphereTransforms.swift in Sources */,
+				CD552B5A274EB39A00041FAC /* Vector4.swift in Sources */,
+				CDB0D99E2751810A00064209 /* Sphere.swift in Sources */,
+				CDB0D99C275180DB00064209 /* Ray.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CD552B52274EB28400041FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD552B53274EB28400041FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CD552B55274EB28400041FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Ray Tracing Challenge V7/Ray_Tracing_Challenge_V7.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ray Tracing Challenge V7/Preview Content\"";
+				DEVELOPMENT_TEAM = HBDB6683UC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TonopahSoftware.Ray-Tracing-Challenge-V7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CD552B56274EB28400041FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Ray Tracing Challenge V7/Ray_Tracing_Challenge_V7.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ray Tracing Challenge V7/Preview Content\"";
+				DEVELOPMENT_TEAM = HBDB6683UC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TonopahSoftware.Ray-Tracing-Challenge-V7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD552B40274EB26800041FAC /* Build configuration list for PBXProject "Ray Tracing Challenge V7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD552B52274EB28400041FAC /* Debug */,
+				CD552B53274EB28400041FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD552B54274EB28400041FAC /* Build configuration list for PBXNativeTarget "Ray Tracing Challenge V7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD552B55274EB28400041FAC /* Debug */,
+				CD552B56274EB28400041FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD552B3D274EB26800041FAC /* Project object */;
+}
